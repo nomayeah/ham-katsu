@@ -1,0 +1,27 @@
+.c-price__box {
+    width: 600px;
+    margin: auto;
+    background-color: #FFEFB4;
+    padding: 24px 8px 8px;
+}
+
+.c-price__box.--connect {
+    margin-top: 16px;
+    position: relative;
+    padding-top: 36px;
+
+    &::after {
+        content: "";
+        display: block;
+        width: 55px;
+        height: 55px;
+        background-color: #FF9E00;
+        border-radius: 50%;
+        border: 10px solid #fff;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -45px;
+        margin: auto;
+    }
+}

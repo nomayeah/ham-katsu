@@ -1,0 +1,25 @@
+.c-price__sub {
+    padding: 16px 0 8px;
+    &__list {
+        width: 300px;
+        margin: auto;
+        li {
+            display: flex;
+            margin-bottom: 12px;
+        }
+
+        span:first-child {
+            background-color: #646258;
+            width: 124px;
+            font-size: 18px;
+            color: #fff;
+            padding: 4px 0;
+        }
+
+        span:last-child {
+            font-size: 22px;
+            font-weight: 700;
+            padding-left: 18px;
+        }
+    }
+}
