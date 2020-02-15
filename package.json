@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "mini-css-extract-plugin": "^0.4.2",
-    "yarn": "^1.9.4"
+    "yarn": "^1.22.0"
   }
 }
